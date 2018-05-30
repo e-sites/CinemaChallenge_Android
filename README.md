@@ -2,7 +2,7 @@
 
 ## Assignment
 
-You've been assigned to a proejct to create a small part of the reservation system for a cinema. In particular the seating arrangement for its visitors who made an online reservation. The input you get from the online booking system is the number of persons the reservation holds and the output should be in the form of an array with the seating numbers that should be reserved. 
+You've been assigned to a project to create a small part of the reservation system for a cinema. In particular the seating arrangement for its visitors who made an online reservation. The input you get from the online booking system is the number of persons the reservation holds and the output should be in the form of an array with the seating numbers that should be reserved. 
 Priority with this booking system is that the visitors will be seated, as much as possible, next to eachother.
 
 In other words you need to create some sort of method which looks at a number of rows and finds the best gap for the group of visitors to be seated.
