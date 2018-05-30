@@ -1,19 +1,20 @@
 ![Cinema Challenge](Assets/logo.png?1)
 
-## Opdracht
+## Assignment
 
-Je krijgt de vraag om een klein deel van het reserveringssysteem voor een bioscoop te maken. Namelijk de functionaliteit die de stoelnummers toewijst aan mensen die online een plaats willen reserveren. Als input ontvang je het aantal personen, als output dien je een array te returnen van de te reserveren stoelen. Hierbij is het streven dat iedereen, zoveel mogelijk, naast elkaar kan zitten.
+You've been assigned to a proejct to create a small part of the reservation system for a cinema. In particular the seating arrangement for its visitors who made an online reservation. The input you get from the online booking system is the number of persons the reservation holds and the output should be in the form of an array with the seating numbers that should be reserved. 
+Priority with this booking system is that the visitors will be seated, as much as possible, next to eachother.
 
-Je dient dus een methode te verzinnen waarbij je in een lijst met stoelen een gat kunt zoeken waar het gewenste aantal personen past. De stoelen in deze bioscoop zijn doorgenummerd, de rijen zijn dus irrelevant. Indien er meerdere mogelijkheden zijn waar de personen kunnen zitten dien je de mogelijkheid met de laagste stoelnummers (de eerst voorkomende) terug te geven. Indien er geen mogelijkheden zijn waarbij de groep in zijn geheel bij elkaar kan zitten, dien je net zo lang mensen apart te zetten tot het wel past.
+In other words you need to create some sort of method which looks at a number of rows and finds the best gap for the group of visitors to be seated.
+If for some reason the entire group cannot be allocated into a single 'gap', then you have to split the group up into smaller groups. And remember that nobody likes to sit alone or inbetween strangers.
 
-Bijvoorbeeld; Indien er geen plek voor 7 mensen is zoek je een plek voor 6 mensen, en zet je de 7de persoon in zijn eentje. Zo ga je door tot de gehele groep een plaats heeft gevonden. Indien het niet mogelijk is de groep personen in de bioscoop te plaatsen retourneert je functie een `nil` in plaats van de array.
+Also create a (dynamic) visual presentation of the seats in the cinema an the its occupation.
 
-Maak ook een (dynamische) visuele presentatie van de stoelen in de bioscoop en de bezetting hiervan, zodat de werking van je opzet inzichtelijk wordt.
+## Technique
 
-## Techniek
+We would like you to use Kotlin / JAVA. The use of additional frameworks are allowed. However the seating arrangement should be written by yourself.
+Make use of a database in order to store the seats.
 
-Voor de techniek willen we graag dat je gebruik maakt van Kotlin / JAVA. Waar jezelf denkt het beste resultaat mee te halen. De basisopzet van het project is terug te vinden in deze repository. Eventuele frameworks die je graag in wilt zetten om deze challenge te tackelen zijn vrij te kiezen (en geen vereiste!). Echter dient de logica voor het kiezen van de beste plaatsen natuurlijk zelf geschreven te zijn.
+## Usage
 
-## De praktijk
-
-Er is een ongedefinieerd aantal stoelen. Je functie(s) moeten dus met 10, maar ook met 10.000 stoelen (of meer) overweg kunnen. Verder zullen er al een random aantal stoelen bezet zijn. Ga er vanuit dat je functie een onderdeel is van een groter geheel, waarbij er meerdere mogelijkheden zijn om stoelen te reserveren. Maak gebruik van een database voor de registratie van de stoelen. Het type database is vrij invulbaar.
+The number of seats or undefined. Your approach should be able handle 10, but also 10,000 seats, or even more. Every cinema starts of with a random number of chairs already occupied. So don't start of with an empty room. This particular functionality is just a (small) part of the entire booking system, so keep that in mind.
