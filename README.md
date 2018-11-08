@@ -17,4 +17,4 @@ Make use of a database in order to store the seats.
 
 ## Usage
 
-The number of seats or undefined. Your approach should be able handle 10, but also 10,000 seats, or even more. Every cinema starts of with a random number of chairs already occupied. So don't start of with an empty room. This particular functionality is just a (small) part of the entire booking system, so keep that in mind.
+The number of seats or undefined. Your approach should be able to handle 10, but also 10,000 seats, or even more. Every cinema starts of with a random number of chairs already occupied. So don't start of with an empty room. This particular functionality is just a (small) part of the entire booking system, so keep that in mind.
