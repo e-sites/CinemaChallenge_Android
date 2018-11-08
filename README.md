@@ -12,7 +12,7 @@ Also create a (dynamic) visual presentation of the seats in the cinema an the it
 
 ## Technique
 
-We would like you to use Kotlin / JAVA. The use of additional frameworks are allowed. However the seating arrangement should be written by yourself.
+We would like you to use Kotlin. The use of additional frameworks are allowed. However the seating arrangement should be written by yourself.
 Make use of a database in order to store the seats.
 
 ## Usage
