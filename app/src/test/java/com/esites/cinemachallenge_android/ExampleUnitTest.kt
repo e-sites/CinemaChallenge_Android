@@ -1,4 +1,4 @@
-package nl.esites.cinemachallenge
+package com.esites.cinemachallenge_android
 
 import org.junit.Test
 
